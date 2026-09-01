@@ -1,0 +1,35 @@
+.order-form {
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .order-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+  }
+  
+  .order-field label {
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  
+  .order-field input {
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #b9b9b9;
+  }
+  
+  .confirm-button {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  
+    border: none;
+    border-radius: 3px;
+  
+    background: #4472c4;
+    color: white;
+  
+    cursor: pointer;
+  }

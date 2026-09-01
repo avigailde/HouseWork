@@ -1,0 +1,49 @@
+.product-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .selector-field select {
+    width: 180px;
+    height: 38px;
+    border: 1px solid #b9b9b9;
+    padding: 0 10px;
+    background: white;
+    font-size: 14px;
+  }
+  
+  .quantity-field {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .quantity-field label {
+    font-size: 14px;
+  }
+  
+  .quantity-field input {
+    width: 65px;
+    height: 38px;
+    padding: 0 8px;
+    border: 1px solid #b9b9b9;
+  }
+  
+  .add-button {
+    height: 38px;
+    padding: 0 22px;
+    border: none;
+    border-radius: 3px;
+    background: #4472c4;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add-button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }

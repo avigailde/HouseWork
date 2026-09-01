@@ -1,0 +1,17 @@
+.cart-category {
+    min-width: 150px;
+    text-align: center;
+  }
+  
+  .cart-category-title {
+    background: #4472c4;
+    color: white;
+    padding: 7px 18px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+  }
+  
+  .cart-category-item {
+    padding: 3px 0;
+    font-size: 14px;
+  }
